@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Personal Map Markers</title>
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css" type="text/css" />
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+
+
+  <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/script.js"></script>
+  <script type="text/javascript" src="assets/js/mdb.min.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+</head>
+
+
+
+<body>
+
+  <!-- navbar navbar-expand-lg navbar-light bg-light -->
+
+
+  <nav class="nav-tran navbar navbar-expand-lg navbar-fixed-top">
+    <a class="nav-font navbar-brand" href="#">DiscoverDublin</a>
+    <button class="navbar-toggler" id="myHref" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-font nav-item nav-link active" href="index.html">NightLife <span class="sr-only">(current)</span></a>
+        <a class="nav-font nav-item nav-link" href="restaurants.html">Restaurants</a>
+        <a class="nav-font nav-item nav-link" href="cafes.html">Cafes</a>
+
+      </div>
+    </div>
+  </nav>
+  <div class="map-container container">
+    <div class="info-text">
+      <h3>Just drag and right click. </h3>
+    </div>
+    <div id="map"></div>
+  </div>
+
+
+
+
+
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-b9gUyXcjbikQJdAg6XkHyXtsczpWDw8&callback=createMap&libraries=places" async defer></script>
+
+</body>
+
+</html>

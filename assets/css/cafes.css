@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+
+
+
+
+/* background image */
+
+body {
+    background-image: url(../images/dublin-orange.jpg);
+    background-position: fixed center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+/* map dimensions */
+
+#map {
+    height: 500px;
+    width: 70%;
+    margin: 20px;
+    padding: 10px;
+    border: solid 5px pink;
+}
+
+/* navbar */
+
+.nav-font {
+
+    color: #f8f9fa;
+    font-weight: 500;
+    font-family: 'Comfortaa', cursive;
+}
+.nav-font:hover {
+    color: pink;
+}
+
+/* Info text */
+.info-text {
+    font-family: 'Arimo', sans-serif;
+    color: #f8f9fa ;
+    font-style: italic;
+    margin-left: 20px;
+    font-weight: 200;
+}
+
+
+/* map container */
+
+.map-container {
+    position: fixed;
+    top: 27%;
+    left: 27%;
+}
