@@ -1,9 +1,11 @@
+/* google fonts */
+
 @import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
 
 
 
 
-/* background image */
+/* background image custom */
 
 body {
     background-image: url(../images/dublin-gray.jpg);
@@ -18,7 +20,7 @@ body {
 
 
 
-/* map dimensions */
+/* map dimensions custom */
 
 #map {
     height: 500px;
@@ -28,7 +30,7 @@ body {
     border: solid 5px pink;
 }
 
-/* navbar */
+/* navbar custom */
 
 .nav-font {
 
@@ -36,14 +38,16 @@ body {
     font-weight: 500;
     font-family: 'Comfortaa', cursive;
 }
+
 .nav-font:hover {
     color: pink;
 }
 
-/* Info text */
+/* Info text custom */
+
 .info-text {
     font-family: 'Arimo', sans-serif;
-    color: #f8f9fa ;
+    color: #f8f9fa;
     font-style: italic;
     margin-left: 20px;
     font-weight: 200;

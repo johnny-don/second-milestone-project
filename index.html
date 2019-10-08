@@ -5,14 +5,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Personal Map Markers</title>
+  <title>DiscoverNightLife</title>
 
   <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" />
   <link rel="stylesheet" href="assets/css/font-awesome.min.css" type="text/css" />
   <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
-
   <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
   <script type="text/javascript" src="assets/js/script.js"></script>
   <script type="text/javascript" src="assets/js/mdb.min.js"></script>
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
@@ -21,39 +22,81 @@
 
 
 
-<body>
+<body id="bg-image">
 
-  <!-- navbar navbar-expand-lg navbar-light bg-light -->
+  <!-- navbar, bootstrap and customized  -->
 
 
   <nav class="nav-tran navbar navbar-expand-lg navbar-fixed-top">
-    <a class="nav-font navbar-brand" href="#">DiscoverDublin</a>
+    <a class="nav-font all-fonts navbar-brand" href="#" id="color-change">DiscoverDublin</a>
     <button class="navbar-toggler" id="myHref" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-font nav-item nav-link active" href="index.html">NightLife <span class="sr-only">(current)</span></a>
-        <a class="nav-font nav-item nav-link" href="restaurants.html">Restaurants</a>
-        <a class="nav-font nav-item nav-link" href="cafes.html">Cafes</a>
+        <a class="nav-font all-fonts nav-item nav-link active" href="index.html">NightLife <span class="sr-only">(current)</span></a>
+        <a class="nav-font all-fonts nav-item nav-link" href="restaurants.html">Restaurants</a>
+        <a class="nav-font all-fonts nav-item nav-link" href="cafes.html">Cafes</a>
 
       </div>
     </div>
   </nav>
+
+  <!-- Map, custom -->
+
   <div class="map-container container">
-    <div class="info-text">
-      <h3>Just drag and right click. </h3>
+    <div class="info-text all-fonts">
+      <h3>Just drag, right click and click the marker for extra info. </h3>
     </div>
     <div id="map"></div>
   </div>
+  
+  <!-- Footer -->
+  <section class="clear-floats"></section>
+  <div class="footer">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-5 col-xs-12 about-company">
+      <h2>Heading</h2>
+      <p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac ante mollis quam tristique convallis </p>
+      <p><a href="#"><i class="fa fa-facebook-square mr-1"></i></a><a href="#"><i class="fa fa-linkedin-square"></i></a></p>
+    </div>
+    <div class="col-lg-3 col-xs-12 links">
+      <h4 class="">Links</h4>
+        <ul class="m-0 p-0">
+          <li>- <a href="#">Lorem ipsum</a></li>
+          <li>- <a href="#">Nam mauris velit</a></li>
+          <li>- <a href="#">Etiam vitae mauris</a></li>
+          <li>- <a href="#">Fusce scelerisque</a></li>
+          <li>- <a href="#">Sed faucibus</a></li>
+          <li>- <a href="#">Mauris efficitur nulla</a></li>
+        </ul>
+    </div>
+    <div class="col-lg-4 col-xs-12 location">
+      <h4 class="">Location</h4>
+      <p>22, Lorem ipsum dolor, consectetur adipiscing</p>
+      <p class=""><i class="fa fa-phone mr-3"></i>(541) 754-3010</p>
+      <p><i class="fa fa-envelope-o mr-3"></i>info@hsdf.com</p>
+    </div>
+  </div>
+  <div class="row mt-5">
+    <div class="col copyright">
+      <p class=""><small class="text-white-50">© 2019. All Rights Reserved.</small></p>
+    </div>
+  </div>
+</div>
+</div>
 
 
 
 
 
-
+  <script type="text/javascript" src="../js/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-b9gUyXcjbikQJdAg6XkHyXtsczpWDw8&callback=createMap&libraries=places" async defer></script>
-
+  <script type="text/javascript" src="assets/js/script.js"></script>
+  <script type="text/javascript" src="assets/js/mdb.min.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </body>
 
 </html>

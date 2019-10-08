@@ -1,11 +1,13 @@
+/* google fonts */
+
 @import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
 
 
 
 
-/* background image */
+/* background image, custom */
 
-body {
+#bg-image {
     background-image: url(../images/dublin-morning.jpg);
     background-position: fixed center;
     background-size: cover;
@@ -18,7 +20,7 @@ body {
 
 
 
-/* map dimensions */
+/* map dimensions, custom */
 
 #map {
     height: 500px;
@@ -28,32 +30,79 @@ body {
     border: solid 5px pink;
 }
 
-/* navbar */
+/* navbar, custom */
 
 .nav-font {
 
-    color: #f8f9fa;
+
     font-weight: 500;
     font-family: 'Comfortaa', cursive;
 }
+
 .nav-font:hover {
     color: pink;
 }
 
-/* Info text */
+/* Info text custom */
+
 .info-text {
     font-family: 'Arimo', sans-serif;
-    color: #f8f9fa ;
+
     font-style: italic;
     margin-left: 20px;
     font-weight: 200;
 }
 
+.all-fonts {
+    color: #f8f9fa;
+}
 
-/* map container */
+
+/* map container custom */
 
 .map-container {
     position: fixed;
     top: 27%;
     left: 27%;
+    margin-bottom: 50px;
+}
+
+
+.clear-floats {
+    clear: both;
+}
+/* footer */
+.footer{
+  background: #152F4F;
+  color:white;
+  position: bottom;
+  height: 200px;
+  width: 100%;
+  bottom: 0;
+  margin-top: 100px;
+  clear: both;
+  
+  .links {
+    ul {list-style-type: none;}
+    li a{
+      color: white;
+      transition: color .2s;
+      &:hover{
+        text-decoration:none;
+        color:#4180CB;
+        }
+    }
+  }  
+  .about-company{
+    i{font-size: 25px;}
+    a{
+      color:white;
+      transition: color .2s;
+      &:hover{color:#4180CB}
+    }
+  } 
+  .location{
+    i{font-size: 18px;}
+  }
+  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
 }

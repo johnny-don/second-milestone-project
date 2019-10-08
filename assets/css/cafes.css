@@ -1,3 +1,5 @@
+/* google fonts */
+
 @import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
 
 
@@ -36,14 +38,16 @@ body {
     font-weight: 500;
     font-family: 'Comfortaa', cursive;
 }
+
 .nav-font:hover {
     color: pink;
 }
 
 /* Info text */
+
 .info-text {
     font-family: 'Arimo', sans-serif;
-    color: #f8f9fa ;
+    color: #f8f9fa;
     font-style: italic;
     margin-left: 20px;
     font-weight: 200;
