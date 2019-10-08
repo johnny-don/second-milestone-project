@@ -10,16 +10,15 @@
   <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" />
   <link rel="stylesheet" href="assets/css/font-awesome.min.css" type="text/css" />
   <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="assets/css/mdb.min.css" type="text/css" />
 
   <script type="text/javascript" src="assets/js/jquery.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
   <script type="text/javascript" src="assets/js/script.js"></script>
   <script type="text/javascript" src="assets/js/mdb.min.js"></script>
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
 </head>
-
 
 
 <body id="bg-image">
@@ -43,51 +42,38 @@
   </nav>
 
   <!-- Map, custom -->
-
-  <div class="map-container container">
-    <div class="info-text all-fonts">
-      <h3>Just drag, right click and click the marker for extra info. </h3>
+  <div class="main-section container">
+    <div class="row map-container ">
+      <div class="col all-fonts">
+        <h3 class="headline">DiscoverDublin in an instant </h3>
+        <hr>
+        <h5 class="sub-text">DiscoverDublin is a simple tool to take the hassle out of planning your time in beautiful Dublin.<br> Just drag the map to your desired location<br>Right click to activate the markers.<br> Click on the marker to display the name of the venue and
+          enjoy the night</h5>
+      </div>
+      <div class="col" id="map"></div>
     </div>
-    <div id="map"></div>
   </div>
-  
+
   <!-- Footer -->
-  <section class="clear-floats"></section>
-  <div class="footer">
-<div class="container">
-  <div class="row">
-    <div class="col-lg-5 col-xs-12 about-company">
-      <h2>Heading</h2>
-      <p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac ante mollis quam tristique convallis </p>
-      <p><a href="#"><i class="fa fa-facebook-square mr-1"></i></a><a href="#"><i class="fa fa-linkedin-square"></i></a></p>
-    </div>
-    <div class="col-lg-3 col-xs-12 links">
-      <h4 class="">Links</h4>
-        <ul class="m-0 p-0">
-          <li>- <a href="#">Lorem ipsum</a></li>
-          <li>- <a href="#">Nam mauris velit</a></li>
-          <li>- <a href="#">Etiam vitae mauris</a></li>
-          <li>- <a href="#">Fusce scelerisque</a></li>
-          <li>- <a href="#">Sed faucibus</a></li>
-          <li>- <a href="#">Mauris efficitur nulla</a></li>
-        </ul>
-    </div>
-    <div class="col-lg-4 col-xs-12 location">
-      <h4 class="">Location</h4>
-      <p>22, Lorem ipsum dolor, consectetur adipiscing</p>
-      <p class=""><i class="fa fa-phone mr-3"></i>(541) 754-3010</p>
-      <p><i class="fa fa-envelope-o mr-3"></i>info@hsdf.com</p>
-    </div>
-  </div>
-  <div class="row mt-5">
-    <div class="col copyright">
-      <p class=""><small class="text-white-50">© 2019. All Rights Reserved.</small></p>
-    </div>
-  </div>
-</div>
-</div>
+  <footer class="container-fluid">
+    <div id="footer-details" class="row">
+      <div class="col-sm-6">
+        <h5 class="headline uppercase general-sub">DiscoverDublin</h5>
+        <p class="sub-text inline-block">
+          Supplying all the help you need for a great night out in one of Europe's most amazing cities.
+        </p>
+      </div>
+      <div class="link-block col-sm-6">
+        <h5 class="headline uppercase general-sub">Links</h5>
 
+        <a href="http://www.touristofficedublin.com/" target="_blank" class="link">
+                        For more information on Dublin click here
+                        
+                    </a>
+        </p>
+      </div>
 
+  </footer>
 
 
 

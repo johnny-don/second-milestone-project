@@ -5,36 +5,37 @@
 
 
 
-/* background image */
+/* background image, custom */
 
-body {
+#bg-image {
     background-image: url(../images/dublin-orange.jpg);
     background-position: fixed center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: auto;
+    position: absolute;
 }
 
 
 
 
 
-/* map dimensions */
+/* map dimensions, custom */
 
 #map {
     height: 500px;
     width: 70%;
     margin: 20px;
     padding: 10px;
-    border: solid 5px pink;
+    border: solid 5px white;
 }
 
-/* navbar */
+/* navbar, custom */
 
 .nav-font {
 
-    color: #f8f9fa;
+
     font-weight: 500;
     font-family: 'Comfortaa', cursive;
 }
@@ -43,21 +44,60 @@ body {
     color: pink;
 }
 
-/* Info text */
+/* main section and info custom */
 
-.info-text {
-    font-family: 'Arimo', sans-serif;
+.headline {
+    font-family: 'Comfortaa', cursive;
+    padding-top: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.all-fonts {
     color: #f8f9fa;
-    font-style: italic;
-    margin-left: 20px;
-    font-weight: 200;
+}
+
+.sub-text {
+    font-weight: 450;
+    font-family: 'Arimo', sans-serif;
+
+}
+
+/* map container custom */
+
+.map-container {
+    position: static;
+    top: 27%;
+    left: 27%;
+    margin-bottom: 80px;
+    margin-top: 50px;
 }
 
 
-/* map container */
 
-.map-container {
+.main-section {
+    margin-bottom: 150px;
+}
+
+/* footer custom code */
+
+footer {
+    background-color: transparent;
+    color: #fafafa;
+    min-height: 100px;
+    margin: 0;
     position: fixed;
-    top: 27%;
-    left: 27%;
+    bottom: 0;
+    border-top-style: ridge;
+}
+
+.link {
+    font-weight: 400;
+    font-family: 'Arimo', sans-serif;
+    color: pink;
+}
+
+.link-block {
+    text-align: right;
+    padding-right: 10px;
 }

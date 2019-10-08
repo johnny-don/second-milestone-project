@@ -3,8 +3,8 @@
 $(document).ready(function() {
   $("#color-change").on({
     click: function() {
-      $(".all-fonts").css("color", "#f05454")
-      $("#map").css("border", "none")
+      $(".all-fonts").css("color", "pink")
+      $("#map").css("border", "pink")
     },
   });
 });

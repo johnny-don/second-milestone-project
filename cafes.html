@@ -18,10 +18,10 @@
 
 
 
-<body>
 
-  <!-- navbar, bootstrap and customized -->
+<body id="bg-image">
 
+  <!-- navbar, bootstrap and customized  -->
 
 
   <nav class="nav-tran navbar navbar-expand-lg navbar-fixed-top">
@@ -39,19 +39,39 @@
     </div>
   </nav>
 
-  <!-- map, custom -->
-
-  <div class="map-container container">
-    <div class="info-text all-fonts">
-      <h3>Just drag, right click and click the marker for extra info. </h3>
+  <!-- Map, custom -->
+  <div class="main-section container">
+    <div class="row map-container ">
+      <div class="col all-fonts">
+        <h3 class="headline">DiscoverDublin in an instant </h3>
+        <hr>
+        <h5 class="sub-text">DiscoverDublin is a simple tool to take the hassle out of planning your time in beautiful Dublin.<br> Just drag the map to your desired location<br>Right click to activate the markers.<br> Click on the marker to display the name of the venue and
+          enjoy the night</h5>
+      </div>
+      <div class="col" id="map"></div>
     </div>
-    <div id="map"></div>
   </div>
 
+  <!-- Footer -->
+  <footer class="container-fluid">
+    <div id="footer-details" class="row">
+      <div class="col-sm-6">
+        <h5 class="headline uppercase general-sub">DiscoverDublin</h5>
+        <p class="sub-text inline-block">
+          Supplying all the help you need for a great night out in one of Europe's most amazing cities.
+        </p>
+      </div>
+      <div class="link-block col-sm-6">
+        <h5 class="headline uppercase general-sub">Links</h5>
 
+        <a href="http://www.touristofficedublin.com/" target="_blank" class="link">
+                        For more information on Dublin click here
+                        
+                    </a>
+        </p>
+      </div>
 
-
-
+  </footer>
 
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-b9gUyXcjbikQJdAg6XkHyXtsczpWDw8&callback=createMap&libraries=places" async defer></script>
   <script type="text/javascript" src="assets/js/jquery.min.js"></script>
