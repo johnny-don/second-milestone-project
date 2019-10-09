@@ -101,3 +101,21 @@ footer {
     text-align: right;
     padding-right: 10px;
 }
+
+
+
+/* media queries */
+
+@media screen and (max-width: 768px) {
+ #bg-image  {
+     background-color: #1aa3ff;
+     background-image: none;
+    
+ 
+  }
+ #map {
+     height: 400px;
+ }
+ 
+  
+}
